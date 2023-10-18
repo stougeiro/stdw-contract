@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-    namespace STDW\Caching\Contract;
+    namespace STDW\Contract;
 
 
     interface ConfigInterface
