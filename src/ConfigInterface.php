@@ -5,5 +5,5 @@
 
     interface ConfigInterface
     {
-        public function get(string $path): mixed;
+        public function get(string $item): mixed;
     }
