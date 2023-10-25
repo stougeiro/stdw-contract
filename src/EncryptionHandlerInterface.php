@@ -5,4 +5,5 @@
 
     interface EncryptionHandlerInterface extends EncryptionInterface
     {
+        public function setKey(string $key): void;
     }
