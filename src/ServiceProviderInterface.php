@@ -4,5 +4,4 @@
 
 
     interface ServiceProviderInterface extends RegisterableInterface, BootableInterface, TerminableInterface
-    {
-    }
+    { }

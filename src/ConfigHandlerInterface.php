@@ -4,5 +4,4 @@
 
 
     interface ConfigHandlerInterface extends ConfigInterface
-    {
-    }
+    { }
