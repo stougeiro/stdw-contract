@@ -6,5 +6,5 @@
     use SessionIdInterface as NativeSessionIdInterface;
 
 
-    interface SessionHandlerInterface extends SessionInterface, NativeSessionHandlerInterface, NativeSessionIdInterface
+    interface SessionHandlerInterface extends NativeSessionHandlerInterface, NativeSessionIdInterface
     { }
