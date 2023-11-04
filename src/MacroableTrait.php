@@ -21,7 +21,7 @@
             return isset(static::$macros[$name]);
         }
 
-        public function __call($method, $parameters)
+        public function __call(string $method, array $parameters)
         {
             if ( ! static::hasMacro($method)) {
                 throw new BadMethodCallException("Method {$method} does not exist.");
@@ -36,7 +36,7 @@
             return call_user_func_array($macro, $parameters);
         }
 
-        public static function __callStatic($method, $parameters)
+        public static function __callStatic(string $method, array $parameters)
         {
             if ( ! static::hasMacro($method)) {
                 throw new BadMethodCallException("Method {$method} does not exist.");

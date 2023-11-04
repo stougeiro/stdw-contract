@@ -9,7 +9,7 @@
 
         public static function hasMacro(string $name): bool;
 
-        public function __call($method, $parameters);
+        public function __call(string $method, array $parameters);
 
-        public static function __callStatic($method, $parameters);
+        public static function __callStatic(string $method, array $parameters);
     }
